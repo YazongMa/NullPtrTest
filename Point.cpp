@@ -29,7 +29,7 @@ int* TestPoint(int nType)
 	return pTmp;
 }
 
-int main()
+int TestPoint()
 {
 	printf("a:%p, b:%p, c:%p, d:%p\n", &a, &b, &c, &d);
 

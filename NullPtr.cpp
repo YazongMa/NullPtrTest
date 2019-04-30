@@ -33,7 +33,7 @@ private:
 int NullPtr::m_nIndex = 0;
 
 
-int main()
+int TestNullPtr()
 {
 	NullPtr nullPtr;
 	nullPtr.SetIndex(5);

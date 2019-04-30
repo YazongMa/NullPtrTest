@@ -2,16 +2,12 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "g++.exe build active file",
-            "command": "C:\\cygwin\\bin\\g++.exe",
-            "args": [
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "C:\\cygwin\\bin"
+            "label": "make.exe build active file",
+            "command": "make.exe",
+            "group": 
+            {
+                "kind": "build",
+                "isDefault": true
             }
         }
     ],
